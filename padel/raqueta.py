@@ -34,13 +34,13 @@ class Raqueta:
         self.material = material
 
     def cambiarGrip(self):
-        if self.material == "Dañado"
+        if self.material == "Dañado":
             return "Cambiar grip"
         else:
             return "No cambiar grip"
     
     def cambiarMalla(self):
-        if self.modelo == "wilson"
+        if self.modelo == "wilson":
             return "Se sugiere cambiar la malla cada 3 años"
         else:
             return "Cambiar la malla cada año"
